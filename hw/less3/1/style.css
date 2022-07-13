@@ -1,0 +1,67 @@
+.father{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid silver;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.card p {
+    padding: 0 20px 0 20px ;
+}
+
+.icon{
+    width: 160px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+background: white;
+    position: absolute;
+    top: -80px;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background: #008794;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #6161de;
+    color: yellow;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+
+}
