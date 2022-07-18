@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.father {
+    margin: 0 auto;
+    width: 60%;
+    /*border: 2px solid red;*/
+    /*height: 900px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px ;
+}
+
+.header_top {
+    display: flex;
+    gap: 10px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 150px;
+    background: #7b7a7a;
+}
+
+.header {
+    width: 75%;
+    height: 150px;
+    background: #7b7a7a;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /*border: 2px solid black;*/
+
+}
+
+.group_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 23%;
+    /*border: 1px solid red;*/
+    margin-top: -310px
+}
+
+.nav {
+    height: 400px;
+    background: #7b7a7a;
+    width: 23%;
+}
+
+.st_group{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    gap :10px
+}
+
+.store {
+    height: 145px;
+    background: #7b7a7a;
+}
+
+
+.group_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+    /*border: 1px solid green;*/
+
+}
+
+.block45 {
+    display: flex;
+    gap: 10px;
+;
+}
+
+.intro {
+     width: 70%;
+     background:#7b7a7a ;
+     height: 250px;
+ }
+
+.add {
+    width: 30%;
+    background:#7b7a7a ;
+    height: 250px;
+}
+
+.block67 {
+    display: flex;
+    gap: 10px;
+}
+
+.types{
+    width: 70%;
+    height: 450px;
+    background:#7b7a7a ;
+
+}
+
+.product{
+    width: 30%;
+    height: 450px;
+    background:#7b7a7a ;
+}
+
+.footer {
+    background: #7b7a7a;
+    height: 150px;
+
+
+}
+
+
+
+@media screen and (max-width: 1000px){
+    body{
+        background: #d3f7e7;
+    }
+
+
+    .group_content{
+        width: 100%;
+    }
+
+    .block67{
+        flex-direction: column;
+    }
+
+    .types{
+        width: 100%;
+    }
+
+    .product{
+        width: 100%;
+        height: 200px;
+    }
+
+    .main{
+        flex-direction: column;
+
+    }
+
+    .group_nav{
+        display: flex;
+        flex-direction: row ;
+        width: 100%;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .nav{
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .st_group{
+       display: flex;
+    }
+
+    .store{
+        width: 50%;
+    }
+
+
+
+}
+
+
+
